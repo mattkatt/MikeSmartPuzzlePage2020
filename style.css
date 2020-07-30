@@ -58,3 +58,7 @@ input, button {
 .modal.show {
     opacity: 1;
 }
+
+.sr-only {
+    display: none;
+}

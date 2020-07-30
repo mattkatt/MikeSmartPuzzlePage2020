@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html>
-<head lang="en-GB">
-  <meta charset="utf-8">
-  <title>Puzzle</title>
-  <meta name="description" content="Puzzle">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <script type="text/javascript" src="index.js"></script>
-</head>
-<body>
-  <main>
-    <img src="img/verulam.png" alt="Verulam"/>
-    <input id="answer" placeholder="Answer...">
-    <button id="submitAnswer">Submit</button>
-  </main>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <title>Puzzle</title>
+    <meta name="description" content="Puzzle">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="index.js"></script>
+  </head>
 
-  <template id="reveal" data-answer="monopoly">
-    <div class="modal">
-      <img src="img/20200727_181348.jpg" alt="monopoly"/>
-    </div>
-  </template>
-</body>
+  <body>
+    <main>
+      <img src="img/verulam.png" alt="Verulam"/>
+      <label class="sr-only" for="answer">Answer</label>
+      <input id="answer" placeholder="Answer...">
+      <button id="submitAnswer">Submit</button>
+    </main>
+
+    <template id="reveal" data-answer="monopoly">
+      <div class="modal">
+        <img src="img/20200727_181348.jpg" alt="monopoly"/>
+      </div>
+    </template>
+  </body>
 </html>
